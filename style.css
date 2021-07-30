@@ -71,14 +71,14 @@ ul li {
     box-shadow: 0px 5px 0px #c4c4c4;   
     transition: All 100ms ease-in;
     padding: 0.8rem 2rem;	
-	background: #72c3dc;
+    background: #72c3dc;
     color: #fff;
     border: 1px solid #2b8ead;
     border-radius: 5px;
     box-shadow: 0px 5px 0px #2b8ead;
     text-shadow: 1px 1px 1px #2b8ead;
     font-weight: 100;
-	cursor: pointer;
+    cursor: pointer;
 }
 
 footer {
@@ -90,8 +90,8 @@ footer {
 }
 @media screen and (min-width: 360px) and (max-width: 768px) {
     .container {      
-        width: 100%;
-        padding : 0;    
+       width: 100%;
+       padding : 0;    
        background: black;
        border-bottom: 1px solid white;
     }
