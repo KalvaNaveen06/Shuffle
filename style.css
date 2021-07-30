@@ -17,6 +17,7 @@ h1 {
     text-align: center;
     font-weight: 400;
     color: #595959;
+    
 }
 .actions {
     float: right;
@@ -85,12 +86,26 @@ footer {
     text-align: center;
     color: #333;
     padding: 5px;
+    font-style: italic;
 }
 @media screen and (min-width: 360px) and (max-width: 768px) {
-    .container {
-        background: none;
+    .container {      
         width: 100%;
+        padding : 0;    
+       background: black;
+       border-bottom: 1px solid white;
     }
+  
+  header {
+   background: black; 
+   max-height: 4rem;
+   padding: 0.5 rem;
+  }
+  
+  .mobile {
+    background: white;
+    margin: 1rem;
+  }
     .fluid-bar {
         display: none;
     }
@@ -102,7 +117,8 @@ footer {
         text-align: center;
     }
     h1 {
-        color: #fff;
+        color: #e2e2e2;
+        font-weight: 700;
         height: 4rem;
     }
     .btn {
@@ -110,13 +126,13 @@ footer {
         padding: 1rem 1.5rem;
         display: inline-block;
         margin: 0.8rem;
-        width: 9rem;
+        width: 7rem;
     }
     ul li {
         list-style: none;
         padding: 0.3rem;
         display: block;
-        margin: 0;
+        margin: 1rem;
         color: #333;
         font-size: 3rem;
         text-align: center;
@@ -136,18 +152,18 @@ footer {
     .list-item-3,
     .list-item-5,
     .list-item-9 {
-        border-left: 0.2rem solid #2f454e;
+        border-left: 0.5rem solid #2f454e;
     }
     .list-item-2,
     .list-item-4 {
-        border-left: 0.2rem solid #2b8ead;
+        border-left: 0.5rem solid #2b8ead;
     }
     .list-item-1,
     .list-item-8 {
-        border-left: 0.2rem solid #6f98a8;
+        border-left: 0.5rem solid #6f98a8;
     }
     .list-item-6,
     .list-item-7 {
-        border-left: 0.2rem solid #bfbfbf;
+        border-left: 0.5rem solid #bfbfbf;
     }
 }
